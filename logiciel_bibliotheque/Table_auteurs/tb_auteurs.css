@@ -1,0 +1,87 @@
+/* Couleur du Background */
+body {
+    background-color: rgb(115, 70, 211)
+    }
+    
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid rgb(115, 70, 211);
+        text-align: left;
+        padding: 8px;
+        color:rgb(115, 70, 211);
+        background-color: rgb(255, 255, 255);
+    
+    
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    
+      
+      a {
+        color: #000;
+      }
+      
+    
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+    nav li {
+        float: left;
+        }
+    nav li a {
+        display: block;
+        padding: 1em;
+        border: 1px solid chartreuse;
+        text-decoration: none;
+        }
+    nav li a:hover {
+        background-color: chartreuse;
+        color: black;
+        }
+    
+    -->
+    
+    <!--
+    
+    Faire le navigation responsive : 
+    
+    @media screen and (max-width: 480px) {
+    nav {
+        float: none;
+        }
+    nav li {
+        float: none;
+        display: inline-block;
+        }
+    nav form {
+        display: inline-block;
+        margin: 0;
+        }
+    nav input {
+        display: inline-block;
+        }
+    
+    
+    }
+    
+    .titre {
+        color: rgb(255, 255, 255);
+        display: flex; 
+        justify-content: center;
+        margin-top: 120px;
+      }
+    
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
