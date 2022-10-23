@@ -1,0 +1,56 @@
+/*Background*/
+
+/*Couleur du Background*/
+
+body{
+    background-color: rgb(88, 68, 68);
+    color: #fff;
+}
+
+
+
+body{
+    color: #fff;
+}
+
+   
+/* Mise en forme du Menu */
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  table.tab {
+    border: lightgray 2px solid;
+    text-align:center;
+    vertical-align:middle;
+    color:grey;
+    font-family:verdana;
+    }
+    table.tab thead{
+    font-weight:bold;
+    background-color: #546E7A ;
+    color:white;
+    }
+    table.tab tbody{
+    background-color: #B0BEC5  ;
+    }
